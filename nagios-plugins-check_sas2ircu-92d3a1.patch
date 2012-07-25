@@ -1,0 +1,11 @@
+--- check_sas2ircu.orig	2012-07-25 13:43:28.836538709 -0400
++++ check_sas2ircu	2012-07-25 13:41:34.270608702 -0400
+@@ -22,7 +22,7 @@
+ 
+ 
+ use strict;
+-use lib qw(/usr/local/lib/nagios/plugins /usr/lib/nagios/plugins);
++use lib qw(/usr/local/lib/nagios/plugins /usr/lib/nagios/plugins /usr/lib64/nagios/plugins);
+ use utils qw(%ERRORS);
+ 
+ my $sas2ircu = '/usr/sbin/sas2ircu';
